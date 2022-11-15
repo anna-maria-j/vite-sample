@@ -8,5 +8,8 @@ export default defineConfig({
   plugins: [
     react(),
     EnvironmentPlugin('all')
-  ]
+  ],
+  server: {
+    port: 3000
+  }
 })
